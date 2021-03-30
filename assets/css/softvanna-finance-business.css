@@ -504,7 +504,8 @@ header .navbar {
   display: block;
   overflow: hidden;
   position: relative;
-  text-align: center
+  text-align: center;
+	color: black;
 }
 
 .img-fill img {
@@ -1367,6 +1368,12 @@ footer .contact-form button.filled-button:hover {
 
 .card{
 	height: 25em;
+}
+
+#social{
+	margin-top: 5em;
+	margin-bottom: 2em;
+	width: 55em;
 }
 
 #sales-2{
