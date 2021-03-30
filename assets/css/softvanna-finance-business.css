@@ -114,6 +114,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
 }
 p {
 	margin-bottom: 0px;
@@ -1367,7 +1368,12 @@ footer .contact-form button.filled-button:hover {
 }
 
 .card{
-	height: 25em;
+	height: fit-content;
+}
+#sales{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 #social{
