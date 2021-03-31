@@ -104,13 +104,13 @@ https://softvanna.tech
 	-webkit-animation-play-state: paused;
 }
 
-body {
+.body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-	overflow-x: hidden;
+	width:100%;
 }
 p {
 	margin-bottom: 0px;
@@ -1375,7 +1375,6 @@ footer .contact-form button.filled-button:hover {
 #social{
 	margin-top: 5em;
 	margin-bottom: 2em;
-	width: 55em;
 }
 
 #sales-2{
@@ -1542,6 +1541,10 @@ li .outsourced {
 }
 
 @media (max-width: 992px) {
+	.body{
+		width: 100%;
+		overflow-x: hidden;
+	}
 	.navbar .navbar-brand {
 		position: absolute;
 		left: 30px;
