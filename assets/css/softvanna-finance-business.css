@@ -1377,7 +1377,7 @@ footer .contact-form button.filled-button:hover {
 	margin-bottom: 2em;
 	display: flex;
 	flex-wrap: wrap;
-	justify-self: center;
+	justify-content: center;
 }
 
 #sales-2{
