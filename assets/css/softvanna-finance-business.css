@@ -71,7 +71,7 @@ https://softvanna.tech
 	font-weight: bold;
 	font-size: 26px;
 	line-height: 150%;
-	color: #f7f7f7;
+	color: #000000 !important;
 }
 
 /*** target hooks ****/
@@ -569,9 +569,6 @@ header .navbar {
 	
 }
 
-.background{
-
-}
 
 .Modern-Slider .NextArrow{
   position:absolute;
