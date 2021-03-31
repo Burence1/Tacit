@@ -67,7 +67,7 @@ https://softvanna.tech
 
 .slider-container  p
 {
-	margin: 10px 25px;
+	margin-left: 10px 135px;
 	font-weight: bold;
 	font-size: 26px;
 	line-height: 150%;
@@ -922,6 +922,7 @@ footer{
 .contact-us {
 	background-color: #f7f7f7;
 	padding: 40px 0px;
+	text-align: center;
 }
 
 .contact-us .contact-form {
@@ -1513,6 +1514,7 @@ li .outsourced {
 		border-bottom: 1px solid #343434;
 		margin-bottom: 30px;
 		padding-bottom: 30px;
+		text-align: center;
 	}
 	footer .last-item {
 		border-bottom: none;
