@@ -1369,12 +1369,15 @@ footer .contact-form button.filled-button:hover {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	box-sizing: border-box;
+	justify-items: center;
 }
 
 #social{
 	margin-top: 5em;
 	margin-bottom: 2em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-self: center;
 }
 
 #sales-2{
@@ -1538,7 +1541,7 @@ li .outsourced {
 }
 
 #list-2{
-	text-align: center;
+	text-align: left;
 }
 
 @media (max-width: 992px) {
