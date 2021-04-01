@@ -15,7 +15,8 @@ https://softvanna.tech
 {
 	
 	height: 300px;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	overflow: hidden;
 	padding: 20px;
 	margin-top: 200px;
@@ -613,9 +614,9 @@ ul.slick-dots {
   display: none!important;
 }
 
-.Modern-Slider .text-content {
-	text-align: left;
-  	width: 75%;
+ .text-content {
+	text-align: justify;
+  	width: 130%;
   	position: absolute;
   	top: 50%;
   	left: 50%;
