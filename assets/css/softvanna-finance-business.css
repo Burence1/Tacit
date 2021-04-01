@@ -107,7 +107,6 @@ https://softvanna.tech
 
 .body {
   font-family: 'Poppins', sans-serif;
-  overflow-x: hidden;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -450,6 +449,7 @@ header .navbar {
 }
 .navbar .navbar-nav .nav-item {
 	margin: 0px 15px;
+	display: flex;
 }
 
 /*Nav color changes here*/
@@ -1580,6 +1580,7 @@ li .outsourced {
 		padding: 15px 0px;
 		color: #1e1e1e!important;
 	}
+	
 	.navbar .navbar-nav .nav-link:hover,
 	.navbar .navbar-nav .active>.nav-link,
 	.navbar .navbar-nav .nav-link.active,
